@@ -8,12 +8,17 @@ public class LaunchLandingPage {
     public void launchLandingpage(){
         configureDriver.settingBrowser();
         WebDriver driver = configureDriver.getDriver();
-        driver.get("http://demo.guru99.com/");
+        driver.get("http://uat.skorkel.com");
         System.out.println("Application title is ============="+driver.getTitle());
-        WebElement element=driver.findElement(By.xpath("//input[@name='emailid']"));
-        element.sendKeys("abc@gmail.com");
-        WebElement button=driver.findElement(By.xpath("//input[@name='btnLogin']"));
+        WebElement button=driver.findElement(By.xpath("//*[@class='btn btn-primary login-popup']"));
         button.click();
+        WebElement username=driver.findElement(By.xpath("//*[@id=\"UserName\"]"));
+        username.sendKeys("s.ranjan+a@atlogys.com");
+        WebElement password=driver.findElement(By.xpath("//*[@id=\"Password\"]"));
+        password.sendKeys("sumit@123");
+        WebElement loginButton=driver.findElement(By.xpath("//*[@id=\"Login1_button\"]"));
+        loginButton.click();
+        System.out.println("User Logined Sussessfully");
         driver.quit();
     }
 

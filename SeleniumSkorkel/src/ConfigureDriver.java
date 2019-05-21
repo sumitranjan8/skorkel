@@ -8,7 +8,7 @@ public class ConfigureDriver {
     WebDriver driver;
 
     public void settingBrowser(){
-        setDriver("firefox");
+        setDriver("chrome");
     }
 
     private void setDriver(String browserName){
