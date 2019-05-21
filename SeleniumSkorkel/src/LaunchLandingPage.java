@@ -22,9 +22,9 @@ public class LaunchLandingPage {
         driver.quit();
     }
 
-    public static void main(String[] args) {
-        LaunchLandingPage obj = new LaunchLandingPage();
-        obj.launchLandingpage();
-
-    }
+//    public static void main(String[] args) {
+//        LaunchLandingPage obj = new LaunchLandingPage();
+//        obj.launchLandingpage();
+//
+//    }
 }
