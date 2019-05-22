@@ -4,27 +4,30 @@ import org.openqa.selenium.WebElement;
 
 public class LaunchLandingPage {
 
-    private ConfigureDriver configureDriver= new ConfigureDriver();
-    public void launchLandingpage(){
-        configureDriver.settingBrowser();
-        WebDriver driver = configureDriver.getDriver();
-        driver.get("http://uat.skorkel.com");
-        System.out.println("Application title is ============="+driver.getTitle());
-        WebElement button=driver.findElement(By.xpath("//*[@class='btn btn-primary login-popup']"));
-        button.click();
-        WebElement username=driver.findElement(By.xpath("//*[@id=\"UserName\"]"));
-        username.sendKeys("s.ranjan+a@atlogys.com");
-        WebElement password=driver.findElement(By.xpath("//*[@id=\"Password\"]"));
-        password.sendKeys("sumit@123");
-        WebElement loginButton=driver.findElement(By.xpath("//*[@id=\"Login1_button\"]"));
-        loginButton.click();
-        System.out.println("User Logined Sussessfully");
-        driver.quit();
-    }
+    String url = "http://dev.skorkel.com/";
 
-//    public static void main(String[] args) {
-//        LaunchLandingPage obj = new LaunchLandingPage();
-//        obj.launchLandingpage();
-//
-//    }
+
+
+    public void launchLandingpage() {
+        ConfigureDriver.get().settingBrowser();
+        WebDriver driver = ConfigureDriver.get().getDriver();
+        driver.get(url);
+        System.out.println("Application title is =============" + driver.getTitle());
+        int titleLength = driver.getTitle().length();
+        System.out.println("Length of the title is : "+ titleLength);
+        String actualUrl = driver.getCurrentUrl();
+
+        if (actualUrl.equals(url)){
+            System.out.println("Verification Successful - The correct Url is opened.");
+        }
+        else{
+            System.out.println("Verification Failed - An incorrect Url is opened.");
+
+            System.out.println("Actual URL is : " + actualUrl);
+            System.out.println("Expected URL is : " + url);
+        }
+        System.out.println("Successfully opened the website http://uat.skorkel.com");
+        //driver.quit();
+
+    }
 }

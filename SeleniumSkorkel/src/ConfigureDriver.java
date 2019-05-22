@@ -5,7 +5,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class ConfigureDriver {
-    WebDriver driver;
+
+    private static WebDriver driver;
+
+    /**
+     *
+     */
+    private ConfigureDriver(){
+        System.out.printf("rajdeep");
+    }
+
+    public static ConfigureDriver get(){
+        return new ConfigureDriver();
+    }
 
     public void settingBrowser(){
         setDriver("chrome");
