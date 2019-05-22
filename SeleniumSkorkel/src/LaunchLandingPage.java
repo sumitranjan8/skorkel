@@ -26,7 +26,7 @@ public class LaunchLandingPage {
             System.out.println("Actual URL is : " + actualUrl);
             System.out.println("Expected URL is : " + url);
         }
-        System.out.println("Successfully opened the website http://uat.skorkel.com");
+        System.out.println("Successfully opened the website http://dev.skorkel.com");
         //driver.quit();
 
     }

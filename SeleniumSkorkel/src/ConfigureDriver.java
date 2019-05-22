@@ -12,7 +12,7 @@ public class ConfigureDriver {
      *
      */
     private ConfigureDriver(){
-        System.out.printf("rajdeep");
+        System.out.printf("Singleton Class Executing");
     }
 
     public static ConfigureDriver get(){
