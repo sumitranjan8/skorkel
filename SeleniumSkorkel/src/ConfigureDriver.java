@@ -8,9 +8,7 @@ public class ConfigureDriver {
 
     private static WebDriver driver;
 
-    /**
-     *
-     */
+
     private ConfigureDriver(){
         System.out.printf("Singleton Class Executing");
     }

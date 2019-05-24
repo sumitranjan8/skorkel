@@ -6,4 +6,6 @@ public class Elements {
     final static By Password = By.id("Password");
     final static By btn_login = By.xpath("//*[@id='form2']//div[@class='btn btn-primary login-popup']");
     final static By btn_loginPopup = By.id("Login1_button");
+
 }
+

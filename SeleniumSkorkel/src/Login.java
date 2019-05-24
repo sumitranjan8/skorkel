@@ -7,8 +7,7 @@ import java.lang.ref.SoftReference;
 
 public class Login {
 
-//    String UserName;
-//    String Password;
+
     private WebDriver driver = ConfigureDriver.get().getDriver();
 
     public void login(String UserName, String Password)
@@ -20,15 +19,19 @@ public class Login {
         sendData(Elements.Password,Password);
         clickEvent(Elements.btn_loginPopup);
 
-        String dashboard = ("Home");
-        String loginedDashboard = driver.findElement(By.xpath("//*[@id=\"ctl00_lblDashBoardName\"]")).getText();
-        if (loginedDashboard.equals(dashboard)){
-            System.out.println("User Logined Successfully");
-        }
-        else{
-            System.out.println("Login Failed");
+        BusinessLogic b = new BusinessLogic();
+        b.isLoggedIn();
+        driver.quit();
 
-        }
+//        String dashboard = ("Home");
+//        String loginedDashboard = driver.findElement(By.xpath("//*[@id=\"ctl00_lblDashBoardName\"]")).getText();
+//        if (loginedDashboard.equals(dashboard)){
+//            System.out.println("User Logined Successfully");
+//        }
+//        else{
+//            System.out.println("Login Failed");
+//
+//        }
 
     /*   // Wait for 5 Sec
 		try {
@@ -48,7 +51,7 @@ public class Login {
            return element;
         }catch (NoSuchElementException e){
             e.getMessage();
-            System.out.println("... Element not found b locator: "+locator);
+            System.out.println("... Element not found by locator: "+locator);
             return null;
         }
 
@@ -61,7 +64,7 @@ public class Login {
            return true;
         }catch (NoSuchElementException e){
             e.getMessage();
-            System.out.println("... Element not found b locator: "+locator);
+            System.out.println("... Element not found by locator: "+locator);
             return false;
         }
 
@@ -74,7 +77,7 @@ public class Login {
            return true;
         }catch (NoSuchElementException e){
             e.getMessage();
-            System.out.println("... Element not found b locator: "+locator);
+            System.out.println("... Element not found by locator: "+locator);
             return false;
         }
 
