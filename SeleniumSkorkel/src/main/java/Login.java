@@ -7,7 +7,7 @@ import java.lang.ref.SoftReference;
 
 public class Login {
 
-
+    private BusinessLogic b = new BusinessLogic();
     private static WebDriver driver = ConfigureDriver.get().getDriver();
 
     public void login(String UserName, String Password)
@@ -19,10 +19,8 @@ public class Login {
         sendData(Elements.Password,Password);
         clickEvent(Elements.btn_loginPopup);
 
-
-        BusinessLogic b = new BusinessLogic();
         b.isLoggedIn();
-        driver.quit();
+//        driver.quit();
 
 
         /*   // Wait for 5 Sec

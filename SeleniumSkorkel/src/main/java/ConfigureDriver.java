@@ -38,6 +38,7 @@ public class ConfigureDriver {
 
     public WebDriver getDriver(){
         return driver;
+
     }
 
 
