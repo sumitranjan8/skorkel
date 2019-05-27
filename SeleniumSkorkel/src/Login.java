@@ -8,7 +8,7 @@ import java.lang.ref.SoftReference;
 public class Login {
 
 
-    private WebDriver driver = ConfigureDriver.get().getDriver();
+    private static WebDriver driver = ConfigureDriver.get().getDriver();
 
     public void login(String UserName, String Password)
     {
@@ -19,25 +19,16 @@ public class Login {
         sendData(Elements.Password,Password);
         clickEvent(Elements.btn_loginPopup);
 
+
         BusinessLogic b = new BusinessLogic();
         b.isLoggedIn();
         driver.quit();
 
-//        String dashboard = ("Home");
-//        String loginedDashboard = driver.findElement(By.xpath("//*[@id=\"ctl00_lblDashBoardName\"]")).getText();
-//        if (loginedDashboard.equals(dashboard)){
-//            System.out.println("User Logined Successfully");
-//        }
-//        else{
-//            System.out.println("Login Failed");
-//
-//        }
 
-    /*   // Wait for 5 Sec
+        /*   // Wait for 5 Sec
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -45,7 +36,7 @@ public class Login {
 	    */
     }
 
-    public WebElement elementFinder(By locator){
+    public static WebElement elementFinder(By locator){
         try {
            WebElement element= driver.findElement(locator);
            return element;
