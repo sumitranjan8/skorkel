@@ -9,12 +9,20 @@ public class BusinessLogic {
         String dashboardName;
         String errorMessage;
 
+//        try {
+//            Thread.sleep(10000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+
         try {
             dashboardName = Login.elementFinder(Elements.dashboard_name).getText();
+
         }catch (Exception e) {
             e.getMessage();
             dashboardName = null;
         }
+
         if (dashboard.equals(dashboardName)){
             System.out.println("......User Logined Successfully..........");
             HighlighterClass h = new HighlighterClass();
@@ -28,6 +36,7 @@ public class BusinessLogic {
             System.out.println("... Unable to Login: "+errorMessage);
 
         }
+        driver.quit();
 
     }
 
