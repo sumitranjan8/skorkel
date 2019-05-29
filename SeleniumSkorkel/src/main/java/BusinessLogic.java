@@ -4,7 +4,8 @@ public class BusinessLogic {
 
     private WebDriver driver = ConfigureDriver.get().getDriver();
 
-    public void isLoggedIn(){
+
+    public void isLoggedIn() {
         String dashboard = ("Home");
         String dashboardName;
         String errorMessage;
@@ -18,25 +19,25 @@ public class BusinessLogic {
         try {
             dashboardName = Login.elementFinder(Elements.dashboard_name).getText();
 
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.getMessage();
             dashboardName = null;
         }
 
-        if (dashboard.equals(dashboardName)){
+        if (dashboard.equals(dashboardName)) {
             System.out.println("......User Logined Successfully..........");
             HighlighterClass h = new HighlighterClass();
             h.highlighterElement();
             System.out.println(".....Element Highlighted...........");
             HighlighterClass.takeSnapShot("loginSuccess.png");
-        }else{
+        } else {
             System.out.println(".........Login Failed.........");
             HighlighterClass.takeSnapShot("loginFailed.png");
             errorMessage = Login.elementFinder(Elements.loginErrorMessage).getText();
-            System.out.println("... Unable to Login: "+errorMessage);
+            System.out.println("... Unable to Login: " + errorMessage);
 
         }
-        driver.quit();
+
 
     }
 

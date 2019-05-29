@@ -10,10 +10,5 @@ public class Elements {
     final static By loginErrorMessage = By.xpath("//*[@id=\"FailureText\"]");
 
 
-
-
-
-
-
 }
 

@@ -1,0 +1,29 @@
+Pre-requistic: Open Browser and Launch website dev.skorkel.com.
+
+                Step 1: Open either Chrome or Firefox Browser.
+                Step 2: Launch website dev.skorkel.com
+                Step 3: Fetch the title of website and calculate its length.
+                Step 4: Verify that correct url opened.
+
+Testcase Id 001: Test user logged in successfully using correct credentials and verify that user dashboard opened.
+
+                Step 1: Execute Testcase Id 001.
+                Step 2: Find Login button and Click on it to open Login form.
+                Step 3: Find Username field and enter correct Username.
+                Step 4: Find Password field and enter correct Password.
+                Step 5: Find Login button of submit form and Click on it to send login details for verification.
+                Step 6: After Login verify Dashboard opened.
+                Step 7: Highlight the dashboard name.
+                Step 8: Capture Screenshot of the page.
+                Step 9. Close browser.
+
+Testcase Id 002: Test user shouldn't logged in using invalid credentials.
+
+                Step 1: Execute Testcase Id 001.
+                Step 2: Find Login button and Click on it to open Login form.
+                Step 3: Find Username field and enter incorrect Username.
+                Step 4: Find Password field and enter incorrect Password.
+                Step 5: Find Login button of submit form and Click on it to send login details for verification.
+                Step 6: If user not logged in, Find and print Error message.
+                Step 7: Capture Screenshot of the page.
+                Step 8: Close browser.

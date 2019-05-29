@@ -4,39 +4,39 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class ConfigureDriver {
 
+
     private static WebDriver driver;
 
 
-    private ConfigureDriver(){
+    private ConfigureDriver() {
         System.out.printf("Singleton Class Executing");
     }
 
-    public static ConfigureDriver get(){
+    public static ConfigureDriver get() {
         return new ConfigureDriver();
     }
 
-    public void settingBrowser(){
+    public void settingBrowser() {
         setDriver("chrome");
     }
 
-    private void setDriver(String browserName){
+    private void setDriver(String browserName) {
 
-        String driverPath = System.getProperty("user.dir")+"/Resources/Drivers/";
+        String driverPath = System.getProperty("user.dir") + "/Resources/Drivers/";
         System.out.println(driverPath);
 
-        if (browserName.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver",driverPath+"chromedriver.exe");
+        if (browserName.equalsIgnoreCase("chrome")) {
+            System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().window().maximize();
-        }
-        else if (browserName.equalsIgnoreCase("firefox")){
-            System.setProperty("webdriver.gecko.driver",driverPath+"geckodriver.exe");
+        } else if (browserName.equalsIgnoreCase("firefox")) {
+            System.setProperty("webdriver.gecko.driver", driverPath + "geckodriver.exe");
             driver = new FirefoxDriver();
             driver.manage().window().maximize();
         }
     }
 
-    public WebDriver getDriver(){
+    public WebDriver getDriver() {
         return driver;
 
     }
