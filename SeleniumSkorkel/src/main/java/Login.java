@@ -23,6 +23,7 @@ public class Login {
 //        driver.quit();
 
 
+
         /*   // Wait for 5 Sec
 		try {
 			Thread.sleep(5000);
@@ -46,7 +47,7 @@ public class Login {
 
     }
 
-    public boolean clickEvent(By locator){
+    public static boolean clickEvent(By locator){
         try {
            WebElement element = driver.findElement(locator);
            element.click();
@@ -59,7 +60,7 @@ public class Login {
 
     }
 
-    public boolean sendData(By locator, String inputData){
+    public static boolean sendData(By locator, String inputData){
         try {
            WebElement element = driver.findElement(locator);
            element.sendKeys(inputData);

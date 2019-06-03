@@ -19,7 +19,7 @@ Testcase Id 001: Test user logged in successfully using correct credentials and 
 
 Testcase Id 002: Test user shouldn't logged in using invalid credentials.
 
-                Step 1: Execute Testcase Id 001.
+                Step 1: Execute Pre-requistic.
                 Step 2: Find Login button and Click on it to open Login form.
                 Step 3: Find Username field and enter incorrect Username.
                 Step 4: Find Password field and enter incorrect Password.
@@ -27,3 +27,13 @@ Testcase Id 002: Test user shouldn't logged in using invalid credentials.
                 Step 6: If user not logged in, Find and print Error message.
                 Step 7: Capture Screenshot of the page.
                 Step 8: Close browser.
+
+Testcase Id 003: Create a post on User Wall.
+                Step 1. Execute Pre-requistic.
+                Step 2. Execute Testcase Id 001.
+                Step 3. Find Input Field and Add focus to the Field
+                Step 4. Insert Paragraph on runtime.
+                Step 5. Post on the wall clicking Post Button.
+                Step 6. Capture Screenshot of the page.
+                Step 7. Close browser.
+

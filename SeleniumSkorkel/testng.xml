@@ -4,6 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel">
         <classes>
             <class name="LoginTestCases"/>
+            <class name="WallPost"/>
 
         </classes>
     </test>

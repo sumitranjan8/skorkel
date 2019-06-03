@@ -13,13 +13,13 @@ public class LoginTestCases {
 //        ConfigureDriver.get().getDriver().quit();
     }
 
-    @Test(priority = 2)
-    public static void loginFailure(){
-        LaunchLandingPage object2 = new LaunchLandingPage();
-        object2.launchLandingpage();
-        Login userLogin = new Login();
-        userLogin.login("s.ranjan+a@atlogys.com", "su5mit@123");
-        ConfigureDriver.get().getDriver().quit();
-
-    }
+//    @Test(priority = 2)
+//    public static void loginFailure(){
+//        LaunchLandingPage object2 = new LaunchLandingPage();
+//        object2.launchLandingpage();
+//        Login userLogin = new Login();
+//        userLogin.login("s.ranjan+a@atlogys.com", "su5mit@123");
+//        ConfigureDriver.get().getDriver().quit();
+//
+//    }
 }

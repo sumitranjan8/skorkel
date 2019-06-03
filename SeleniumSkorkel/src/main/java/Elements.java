@@ -8,6 +8,9 @@ public class Elements {
     final static By btn_loginPopup = By.id("Login1_button");
     final static By dashboard_name = By.xpath("//*[@id=\"ctl00_lblDashBoardName\"]");
     final static By loginErrorMessage = By.xpath("//*[@id=\"FailureText\"]");
+    final static By postInputField = By.id("txtPostUpdate");
+    final static By postWallButton = By.id("lnkPostUpdate");
+
 
 
 }
