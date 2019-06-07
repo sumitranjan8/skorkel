@@ -1,37 +1,44 @@
+
+import javafx.scene.layout.Priority;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+
 
 public class WallPost {
+    @Test (priority = 1)
+    public static void postOnWall(){
 
+        LaunchLandingPage obj1 = new LaunchLandingPage();
+        obj1.launchLandingpage();
+        Login userLogin = new Login();
+        userLogin.login("s.ranjan+a@atlogys.com", "sumit@123");
 
+        String post = "xyz";
 
-    @Test(priority = 2)
-    public void createPost() {
-        Scanner myObj = new Scanner(System.in);
-        System.out.println("Enter PostData:  ");
-        String postData = myObj.nextLine();
-        myObj.close();
-
-        Login.sendData(Elements.postInputField, postData);
+        Login.sendData(Elements.postInputField, post );
         Login.clickEvent(Elements.postWallButton);
+
+        System.out.println(".....Posted Successfully. ...........");
+
+
+        ConfigureDriver.get().getDriver().quit();
+
+
 
 
     }
 
 
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

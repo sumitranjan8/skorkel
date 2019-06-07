@@ -32,8 +32,9 @@ Testcase Id 003: Create a post on User Wall.
                 Step 1. Execute Pre-requistic.
                 Step 2. Execute Testcase Id 001.
                 Step 3. Find Input Field and Add focus to the Field
-                Step 4. Insert Paragraph on runtime.
+                Step 4. Insert Post.
                 Step 5. Post on the wall clicking Post Button.
                 Step 6. Capture Screenshot of the page.
                 Step 7. Close browser.
+
 

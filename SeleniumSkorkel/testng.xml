@@ -6,6 +6,8 @@
             <class name="LoginTestCases"/>
             <class name="WallPost"/>
 
+
         </classes>
     </test>
 </suite>
+
