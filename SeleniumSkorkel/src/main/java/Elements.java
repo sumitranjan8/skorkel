@@ -15,6 +15,7 @@ public class Elements {
 
     final static By postInputField = By.id("txtPostUpdate");
     final static By postWallButton = By.id("lnkPostUpdate");
+    final static By wallPost = By.xpath("//*[@id=\"ctl00_ContentPlaceHolder1_lstPostUpdates_ctrl0_lblPostDescription\"]");
 
 
 

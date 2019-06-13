@@ -3,8 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Test Login]">
   <test thread-count="5" name="C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel(failed)">
     <classes>
+      <class name="LoginTestCases">
+        <methods>
+          <include name="loginSuccess"/>
+        </methods>
+      </class> <!-- LoginTestCases -->
       <class name="WallPost">
         <methods>
+          <include name="launchBrowser"/>
+          <include name="screenshot"/>
           <include name="postOnWall"/>
         </methods>
       </class> <!-- WallPost -->

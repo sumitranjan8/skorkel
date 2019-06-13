@@ -13,7 +13,7 @@ public class LaunchLandingPage {
     public void launchLandingpage() {
         ConfigureDriver.get().settingBrowser();
         WebDriver driver = ConfigureDriver.get().getDriver();
-//        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 //        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.get(url);
         System.out.println("......Application title is =============" + driver.getTitle());
