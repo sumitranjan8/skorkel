@@ -26,13 +26,13 @@ public class BusinessLogic {
 
         if (dashboard.equals(dashboardName)) {
             System.out.println("......User Logined Successfully..........");
-            HighlighterClass h = new HighlighterClass();
+            Utilities h = new Utilities();
             h.highlighterElement();
             System.out.println(".....Element Highlighted...........");
-            HighlighterClass.takeSnapShot("loginSuccess.png");
+            Utilities.takeSnapShot("loginSuccess.png");
         } else {
             System.out.println(".........Login Failed.........");
-            HighlighterClass.takeSnapShot("loginFailed.png");
+            Utilities.takeSnapShot("loginFailed.png");
             errorMessage = Login.elementFinder(Elements.loginErrorMessage).getText();
             System.out.println("... Unable to Login: " + errorMessage);
 

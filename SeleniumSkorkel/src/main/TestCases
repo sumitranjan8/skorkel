@@ -31,10 +31,24 @@ Testcase Id 002: Test user shouldn't logged in using invalid credentials.
 Testcase Id 003: Create a post on User Wall.
                 Step 1. Execute Pre-requistic.
                 Step 2. Execute Testcase Id 001.
-                Step 3. Find Input Field and Add focus to the Field
-                Step 4. Insert Post.
-                Step 5. Post on the wall clicking Post Button.
+                Step 3. Read data from Excel sheet.
+                Step 3. Find Input Field  and Add focus to the Field .
+                Step 4. input data fetched from excel sheet.
+                Step 5. Post on the wall by clicking Post Button.
                 Step 6. Capture Screenshot of the page.
                 Step 7. Close browser.
+
+Testcase Id 004: Create a new blog.
+                Step 1. Execute pre requistic and Testcase Id 001.
+                Step 2. Navigate to Create Blog page.
+                Step 3. Read data from Excel sheet.
+                Step 4. Find Input Field title and Add focus to the Field .
+                Step 5. Input data fetched from excel
+                Step 6. Find input field Description and Add focus to the field.
+                Step 7. Input data fetched from excel.
+                Step 8. Select classification of blog from dropdown.
+                Step 9. Click on post button to post the blog.
+                Step 10. Capture Screenshot of the blog listing page.
+
 
 

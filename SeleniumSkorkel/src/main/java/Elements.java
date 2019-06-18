@@ -17,7 +17,13 @@ public class Elements {
     final static By postWallButton = By.id("lnkPostUpdate");
     final static By wallPost = By.xpath("//*[@id=\"ctl00_ContentPlaceHolder1_lstPostUpdates_ctrl0_lblPostDescription\"]");
 
-
+//    CreateBlog Elements:
+    final static By interactDropdown = By.xpath("//*[@id=\"drodown_interact\"]");
+    final static By blogsPageLink = By.xpath("//*[@id=\"ctl00_myli_AllBlogs\"]");
+    final static By blogsCreateLink = By.xpath("//*[@id=\"ctl00_blogWrite\"]/a/div");
+    final static By blogTitle = By.xpath("//*[@id=\"txtTitle\"]");
+    final static By blogBody = By.xpath("//*[@id=\"CKDescription\"]");
+    final static By blogPostLink = By.xpath("//*[@id=\"lnkSubmitBlog\"]");
 
 }
 

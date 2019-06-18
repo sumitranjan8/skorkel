@@ -2,30 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e28ebc-238b-49ec-9db3-751455ff613f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CreateBlog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Screenshots/loginFailed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Screenshots/WallPost.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/Screenshots/loginSuccess.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SeleniumSkorkel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumSkorkel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConfigureDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConfigureDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TestCases" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TestCases" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Elements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HighlighterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HighlighterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LaunchLandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LaunchLandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HighlighterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WallPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WallPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConfigureDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConfigureDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Elements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LaunchLandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LaunchLandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginTestCases.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SeleniumSkorkel.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HighlighterClass.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WallPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WallPost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Test Login/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Test Login/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WallPost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="549">
+              <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,19 +56,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/TestCases">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="385">
+              <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HighlighterClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="119">
+              <caret line="78" column="11" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CreateBlog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="48" lean-forward="true" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +91,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ConfigureDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="226">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -91,20 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoginTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="221">
               <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LaunchLandingPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,17 +124,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Elements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="119" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="119" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LoginFailed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,20 +187,22 @@
         <option value="$PROJECT_DIR$/src/main/java/MasterMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoginSuccess.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoginFailed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogic.java" />
         <option value="$PROJECT_DIR$/src/main/java/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/CreatePost.java" />
         <option value="$PROJECT_DIR$/src/main/java/Login1.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataProviderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/TestCases" />
-        <option value="$PROJECT_DIR$/src/main/java/HighlighterClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Elements.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/LaunchLandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConfigureDriver.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/LoginTestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HighlighterClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogic.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/WallPost.java" />
+        <option value="$PROJECT_DIR$/src/main/TestCases" />
+        <option value="$PROJECT_DIR$/src/main/java/Elements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CreateBlog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities.java" />
       </list>
     </option>
   </component>
@@ -221,7 +247,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -236,6 +262,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,11 +281,50 @@
               <item name="Reports" type="462c0819:PsiDirectoryNode" />
               <item name="Screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SeleniumSkorkel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumSkorkel" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumSkorkel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumSkorkel" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumSkorkel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumSkorkel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumSkorkel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumSkorkel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumSkorkel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumSkorkel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumSkorkel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumSkorkel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumSkorkel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumSkorkel" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel/testng.xml">
+  <component name="RunManager" selected="TestNG.CreateBlog">
     <configuration name="WallPost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WallPost" />
       <module name="SeleniumSkorkel" />
@@ -329,6 +395,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateBlog" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSkorkel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateBlog" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WallPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSkorkel" />
       <option name="PACKAGE_NAME" value="" />
@@ -340,32 +417,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WallPost.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumSkorkel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WallPost" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.WallPost" />
       <item itemvalue="TestNG.C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel/testng.xml" />
-      <item itemvalue="TestNG.WallPost.test" />
       <item itemvalue="TestNG.WallPost" />
       <item itemvalue="TestNG.C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel/test-output/testng-failed.xml" />
+      <item itemvalue="TestNG.CreateBlog" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateBlog" />
         <item itemvalue="TestNG.C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel/testng.xml" />
         <item itemvalue="TestNG.WallPost" />
         <item itemvalue="Application.WallPost" />
         <item itemvalue="TestNG.C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel/test-output/testng-failed.xml" />
-        <item itemvalue="TestNG.WallPost.test" />
       </list>
     </recent_temporary>
   </component>
@@ -383,35 +448,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_sumit_Desktop_Automation_GITHUB_skorkel_SeleniumSkorkel_testng_xml - 2019.06.12 at 16h 30m 27s.xml">
+    <history-entry file="WallPost - 2019.06.18 at 16h 14m 40s.xml">
+      <configuration name="WallPost" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_sumit_Desktop_Automation_GITHUB_skorkel_SeleniumSkorkel_testng_xml - 2019.06.18 at 16h 16m 53s.xml">
       <configuration name="C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WallPost - 2019.06.12 at 16h 31m 46s.xml">
-      <configuration name="WallPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WallPost - 2019.06.12 at 16h 36m 53s.xml">
-      <configuration name="WallPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WallPost - 2019.06.12 at 16h 37m 51s.xml">
-      <configuration name="WallPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WallPost - 2019.06.12 at 16h 40m 03s.xml">
-      <configuration name="WallPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WallPost - 2019.06.12 at 16h 45m 59s.xml">
-      <configuration name="WallPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WallPost - 2019.06.12 at 16h 47m 14s.xml">
-      <configuration name="WallPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WallPost - 2019.06.13 at 10h 36m 53s.xml">
-      <configuration name="WallPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_sumit_Desktop_Automation_GITHUB_skorkel_SeleniumSkorkel_testng_xml - 2019.06.13 at 14h 43m 17s.xml">
+    <history-entry file="C__Users_sumit_Desktop_Automation_GITHUB_skorkel_SeleniumSkorkel_testng_xml - 2019.06.18 at 16h 56m 12s.xml">
       <configuration name="C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_sumit_Desktop_Automation_GITHUB_skorkel_SeleniumSkorkel_testng_xml - 2019.06.13 at 14h 50m 41s.xml">
-      <configuration name="C:/Users/sumit/Desktop/Automation/GITHUB/skorkel/SeleniumSkorkel/testng.xml" configurationId="TestNG" />
+    <history-entry file="CreateBlog - 2019.06.18 at 16h 57m 30s.xml">
+      <configuration name="CreateBlog" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateBlog - 2019.06.18 at 16h 59m 48s.xml">
+      <configuration name="CreateBlog" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateBlog - 2019.06.18 at 17h 05m 43s.xml">
+      <configuration name="CreateBlog" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateBlog - 2019.06.18 at 17h 07m 15s.xml">
+      <configuration name="CreateBlog" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateBlog - 2019.06.18 at 17h 09m 13s.xml">
+      <configuration name="CreateBlog" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateBlog - 2019.06.18 at 17h 11m 08s.xml">
+      <configuration name="CreateBlog" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateBlog - 2019.06.18 at 17h 23m 21s.xml">
+      <configuration name="CreateBlog" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -427,14 +492,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.2260128" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.1652452" />
       <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.19616205" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50224215" side_tool="true" weight="0.19616205" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.36836404" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.36836404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,6 +540,18 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CreateBlog.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -550,16 +627,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LoginFailed" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/LoginFailed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reports/Screenshots/loginFailed.png" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Login1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DataProviderTest.java" />
@@ -567,32 +634,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Reports/Screenshots/WallpostSuccess.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/TestCases">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reports/Screenshots/loginSuccess.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Reports/Screenshots/PreWallPost.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
@@ -619,20 +662,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HighlighterClass.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="17">
+          <caret line="431" column="13" selection-start-line="431" selection-start-column="13" selection-end-line="431" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/Screenshots/WallPost.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/Screenshots/WallPost.png-18-06-2019 4-6-35">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/Screenshots/WallPost-18-09-2019 4-9-13.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/Screenshots/loginSuccess.png-18-09-2019 4-9-6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LaunchLandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConfigureDriver.java">
+    <entry file="file://$PROJECT_DIR$/Reports/Screenshots/WallPost-18-14-2019 4-14-37.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LoginFailed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -641,18 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LoginTestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="221">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LaunchLandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -661,32 +747,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Elements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="119" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Reports/Screenshots/WallPost.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="78" column="11" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TestCases">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreateBlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="48" lean-forward="true" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConfigureDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WallPost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        <state relative-caret-position="549">
+          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
